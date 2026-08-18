@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ankete yönlendiriliyorsunuz...</title>
+
+<!-- Google Analytics 4 (GA4) -->
+<!-- AŞAĞIDAKİ "G-XXXXXXXXXX" KISMINI KENDİ GA4 ÖLÇÜM KİMLİĞİNLE DEĞİŞTİR -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L613275YV2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-L613275YV2');
+
+  // Tıklamayı özel bir "form_click" olayı olarak da işaretle
+  gtag('event', 'form_click', {
+    'event_category': 'anket',
+    'event_label': 'mavi_beyaz_yaka_arastirmasi'
+  });
+</script>
+
+<style>
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: #f5f5f5;
+    color: #333;
+    text-align: center;
+  }
+  .box { max-width: 320px; padding: 20px; }
+  .spinner {
+    width: 36px; height: 36px;
+    border: 4px solid #ddd;
+    border-top: 4px solid #555;
+    border-radius: 50%;
+    margin: 0 auto 16px auto;
+    animation: spin 0.9s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  a { color: #555; }
+</style>
+</head>
+<body>
+  <div class="box">
+    <div class="spinner"></div>
+    <p>Ankete yönlendiriliyorsunuz, lütfen bekleyin...</p>
+    <p><small>Yönlenmezseniz <a id="fallback-link" href="#">buraya tıklayın</a>.</small></p>
+  </div>
+
+<script>
+  // AŞAĞIDAKİ LİNKİ KENDİ GOOGLE FORM LİNKİNLE DEĞİŞTİR (zaten dolduruldu)
+  var FORM_URL = "https://forms.gle/Tu3nLNGWh5crnAC78";
+
+  document.getElementById("fallback-link").href = FORM_URL;
+
+  // GA4 olayının gönderilmesi için ufak bir gecikme sonrası yönlendir
+  setTimeout(function () {
+    window.location.href = FORM_URL;
+  }, 600);
+</script>
+</body>
+</html>
