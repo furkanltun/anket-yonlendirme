@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800|PT+Serif:400,400i,700,700i&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700,900&amp;subset=latin-ext");
+.blog-team-cont {
+  display: block;
+  font-size: 0; }
+
+.blog-team-cont.detail {
+  display: block;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 50px; }
+
+.blog-team-cont .writer-cont.w-detail {
+  display: inline-block;
+  width: 50%; }
+
+@media (max-width: 1024px) {
+  .blog-team-cont .writer-cont.w-detail {
+    width: 100%;
+    padding-bottom: 20px; } }
+
+.blog-team-cont .writer-cont .photo {
+  display: inline-block;
+  width: 14%;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  overflow: hidden;
+  vertical-align: top; }
+
+.blog-team-cont .writer-cont .photo img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.blog-team-cont .writer-cont .detail {
+  display: inline-block;
+  width: 86%;
+  padding: 0 20px;
+  vertical-align: top; }
+
+.blog-team-cont .writer-cont .detail h1 {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px; }
+
+.blog-team-cont .writer-cont .detail .text {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px; }
+
+.blog-team-cont .writer-cont .detail .text.text-detail {
+  font-size: 12px;
+  line-height: 20px; }
+
+.blog-team-cont .writer-cont .detail .social-share {
+  display: block;
+  margin-top: 10px; }
+
+@media (max-width: 1024px) {
+  .blog-team-cont .writer-cont .detail .social-share {
+    margin-top: 0; } }
+
+.blog-team-cont .writer-cont .detail .social-share a {
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px 8px;
+  background-color: #222222;
+  color: #fff;
+  margin: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+
+@media (max-width: 1024px) {
+  .blog-team-cont .writer-cont .detail .social-share a {
+    font-size: 16px; } }
+
+.blog-team-cont .writer-cont .detail .social-share a:hover {
+  background-color: #910000; }
+
+.blog-team-cont .head-line {
+  display: block;
+  margin: 20px 0;
+  border-bottom: 2px #910000 solid; }
+
+.blog-team-cont .head-line .namesurname {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #910000; }
+
+#articles {
+  padding: 0; }
+
+#articles .subpage-content {
+  font-size: 0;
+  width: 1360px;
+  margin: 0 auto;
+  padding: 0; }
+
+@media (max-width: 1024px) {
+  #articles .subpage-content {
+    width: 100%; } }
+
+#articles .subpage-content select {
+  display: none;
+  width: 96%;
+  margin: 5px 2%;
+  font-size: 14px;
+  padding: 5px 10px;
+  border: 1px #d4d4d4 solid; }
+
+@media (max-width: 1024px) {
+  #articles .subpage-content select {
+    display: block; } }
+
+#articles .subpage-content.team-detail {
+  width: auto; }
+
+#articles .subpage-content.team-detail p a {
+  display: block; }
+
+#articles .subpage-content .category-cont {
+  display: inline-block;
+  width: 25%;
+  padding-right: 2%;
+  font-size: 14px;
+  vertical-align: top; }
+
+@media (max-width: 1024px) {
+  #articles .subpage-content .category-cont {
+    display: none;
+    width: 100%; } }
+
+#articles .subpage-content .category-cont li {
+  display: block; }
+
+#articles .subpage-content .category-cont li a {
+  display: block;
+  color: #1F1B1C;
+  padding: 10px 15px;
+  border-bottom: 1px #e2e2e2 solid; }
+
+#articles .subpage-content .category-cont li a:hover {
+  background-color: #1F1B1C;
+  color: #fff; }
+
+#articles .subpage-content .category-cont li a.active {
+  background-color: #910000;
+  color: #fff; }
+
+#articles .subpage-content .category-cont li strong {
+  display: block;
+  padding: 20px 10px 5px 10px; }
+
+#articles .subpage-content .list-cont {
+  display: inline-block;
+  width: 75%; }
+  #articles .subpage-content .list-cont .search-cont {
+    display: block;
+    position: relative;
+    padding: 20px 0; }
+    #articles .subpage-content .list-cont .search-cont input {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px #CCCCCC solid; }
+    #articles .subpage-content .list-cont .search-cont button {
+      display: inline-block;
+      position: absolute;
+      right: 4px;
+      top: 24px;
+      padding: 9px 8px;
+      font-size: 12px;
+      background-color: #940001;
+      color: #fff;
+      border: 0; }
+
+@media (max-width: 1024px) {
+  #articles .subpage-content .list-cont {
+    width: 100%; } }
+
+#articles .subpage-content .list-cont.team-detail {
+  width: 100%; }
+
+#articles .subpage-content .list-cont.team-detail .no-data {
+  display: block;
+  padding: 40px 5px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  text-align: center; }
+
+#articles .subpage-content .list-cont .flex-grid {
+  margin-bottom: 20px;
+  width: 100%; }
+
+#articles .subpage-content .list-cont .flex-grid:nth-child(odd) {
+  background-color: #f7f7f7; }
+
+#articles .subpage-content .list-cont .flex-grid:nth-child(even) {
+  background-color: #f9f9f9; }
+
+#articles .subpage-content .list-cont .flex-grid .item {
+  width: 100%;
+  position: relative;
+  padding: 0 20px; }
+
+@media (max-width: 1024px) {
+  #articles .subpage-content .list-cont .flex-grid .item {
+    padding: 20px; } }
+
+#articles .subpage-content .list-cont .flex-grid .item .all-click {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 30px; }
+
+#articles .subpage-content .list-cont .flex-grid .item .text-cont .header-info {
+  margin-bottom: 15px; }
+
+#articles .subpage-content .list-cont .flex-grid .item .text-cont p {
+  margin-bottom: 15px; }
+
+#articles .subpage-content .list-cont .flex-grid .err {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  padding: 40px 0; }
+
+.reference-text-cont {
+  font-size: 12px;
+  color: #4e4e4e;
+  padding: 20px 0;
+  border-top: 1px #d5d5d5 solid; }
+
+.reference-text-cont .reference-link {
+  color: #545454;
+  font-weight: bold; }
+
+.reference-text-cont .reference-link:hover {
+  color: #940001;
+  text-decoration: underline; }
+
+section {
+  padding: 0; }
+
+section p a {
+  color: #222222;
+  font-weight: bold;
+  cursor: unset; }
+  section p a.d-block {
+    display: block;
+    cursor: pointer; }

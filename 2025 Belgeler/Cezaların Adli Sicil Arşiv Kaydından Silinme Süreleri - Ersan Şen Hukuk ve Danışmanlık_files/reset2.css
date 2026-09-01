@@ -1,0 +1,39 @@
+html, body, div, span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /*font-size: 100%;*/
+  font: inherit;
+  vertical-align: baseline;
+  /*user-select:none;*/
+  outline: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+header ol, header ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+textarea {
+  resize: none;
+  height: 107px; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none;
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out; }
+
+::-webkit-input-placeholder {
+  color: #292521; }
